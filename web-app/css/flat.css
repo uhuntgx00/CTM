@@ -1,0 +1,142 @@
+
+.requestingAttendee {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    width: 700px;
+    vertical-align: middle;
+    background-color: #BACFE2;
+    padding: 10px;
+    overflow: hidden;
+    height: 95px;
+}
+
+.requestingTypeIcon {
+
+}
+
+.requestingTypeIcon img {
+    margin-left: -10px;
+    margin-top: -8px;
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    vertical-align: middle;
+}
+
+.requestingWhoBlock {
+}
+
+.requestingWhoBlock a {
+    color: #003296;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.requestingWhoBlock a:hover {
+    color: #666666;
+}
+.requestingAttendeeConference a {
+    color: #003296;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.requestingAttendeeConference a:hover {
+    color: #000000;
+}
+
+.requestingAttendeeSupervisor {
+
+}
+
+.requestingAttendeeSupervisor a {
+    color: #666666;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.requestingAttendeeSupervisor a:hover {
+    color: #003296;
+}
+
+
+.requestingAttendeeAction {
+    overflow: hidden;
+    position: relative;
+    left: 485px;
+    width: 135px;
+    top: -64px;
+    /*clear: right;*/
+    /*float: right;*/
+
+    background-color: #efefef;
+   	padding: 0.3em;
+   	   -moz-box-shadow: 0 0 3px 1px #aaaaaa;
+   	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
+   	        box-shadow: 0 0 3px 1px #aaaaaa;
+   	margin: 0.1em 0 0 0;
+   	border: none;
+}
+
+.requestingAttendeeAction a {
+    background-color: transparent;
+   	border: 0;
+   	color: #666666;
+   	cursor: pointer;
+   	display: inline-block;
+   	margin: 0 0.25em 0;
+   	overflow: visible;
+   	padding: 0.25em 0.7em;
+   	text-decoration: none;
+
+   	   -moz-border-radius: 0.3em;
+   	-webkit-border-radius: 0.3em;
+   	        border-radius: 0.3em;
+}
+
+.requestingAttendeeAction a:hover {
+    background-color: #999999;
+   	color: #ffffff;
+   	outline: none;
+   	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+   	   -moz-box-shadow: none;
+   	-webkit-box-shadow: none;
+   	        box-shadow: none;
+}
+
+.requestingAttendeeAction .pok {
+	background-position: 0.7em center;
+	background-repeat: no-repeat;
+	text-indent: 25px;
+	background-image: url(../images/skin/pok.png);
+}
+
+.requestingAttendeeAction .pcancel {
+    background-position: 0.7em center;
+   	background-repeat: no-repeat;
+   	text-indent: 25px;
+	background-image: url(../images/skin/pcancel.png);
+}
+
+.requestingAttendeeAction .pexclaim {
+    background-position: 0.7em center;
+   	background-repeat: no-repeat;
+   	text-indent: 25px;
+	background-image: url(../images/skin/exclamation.png);
+}
+
+
+.requestingJustification {
+    position: relative;
+    top: -70px;
+    margin-top: 15px;
+    background-color: #C7D7E5;
+    color: #0000FF;
+    font-size: 12px;
+    padding: 5px;
+    height: 17px;
+}

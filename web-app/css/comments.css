@@ -1,0 +1,58 @@
+
+h1.comments {
+    font-size: 30px;
+    color: #4f4f4f;
+    line-height: 10px;
+    font-weight: bold;
+    font-family: inherit;
+    text-rendering: optimizelegibility;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
+    padding: 0;
+    text-shadow: gray 0.05em 0.05em 0.1em;
+    background-color: rgba(0,0,0,0.075);
+}
+
+.comments {
+    color: #4f4f4f;
+    margin-top: 20px;
+}
+
+.comments ul {
+    margin-left: 5%;
+    margin-right: 15%;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+}
+
+.comments ul li {
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li.comments {
+    line-height: 20px;
+    text-align: left;
+    direction: ltr;
+}
+
+li.comments-even {
+    line-height: 20px;
+    text-align: left;
+    direction: ltr;
+    background-color: rgba(196, 196, 196, 0.05);
+}
+
+li.comments-odd {
+    line-height: 20px;
+    text-align: left;
+    direction: ltr;
+    background-color: rgba(196, 196, 196, 0.2);
+}
+

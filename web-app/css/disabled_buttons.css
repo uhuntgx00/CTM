@@ -1,0 +1,129 @@
+/* -DISABLED- ACTION BUTTONS */
+
+.buttons span {
+       -moz-box-shadow: 0 0 0 0 #aaaaaa;
+	-webkit-box-shadow: 0 0 0 0 #aaaaaa;
+	        box-shadow: 0 0 0 0 #aaaaaa;
+}
+
+.disabled_buttons {
+	background-color: #efefef;
+	overflow: hidden;
+	padding: 0.3em;
+	   -moz-box-shadow: 0 0 3px 1px #aaaaaa;
+	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
+	        box-shadow: 0 0 3px 1px #aaaaaa;
+	margin: 0.1em 0 0 0;
+	border: none;
+}
+
+.disabled_buttons input,
+.disabled_buttons a {
+	background-color: transparent;
+	border: 0;
+	color: #660000;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 0.25em 0;
+	overflow: visible;
+	padding: 0.25em 0.7em;
+	text-decoration: none;
+
+	   -moz-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	        border-radius: 0.3em;
+}
+
+.disabled_buttons input:hover, .disabled_buttons input:focus,
+.disabled_buttons a:hover, .disabled_buttons a:focus {
+	background-color: #990000;
+	color: #ff0000;
+	outline: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+	   -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
+
+.no-borderradius .disabled_buttons input:hover, .no-borderradius .disabled_buttons input:focus,
+.no-borderradius .disabled_buttons a:hover, .no-borderradius .disabled_buttons a:focus {
+	background-color: transparent;
+	color: #440000;
+	text-decoration: underline;
+}
+
+.disabled_buttons .paction, .disabled_buttons .padd, .disabled_buttons .previse, .disabled_buttons .preturn, .disabled_buttons .pcancel,
+.disabled_buttons .pdelete, .disabled_buttons .pok, .disabled_buttons .pedit,
+.disabled_buttons .pupload, .disabled_buttons .pdownload,
+.disabled_buttons .delete, .disabled_buttons .edit, .disabled_buttons .save {
+	background-position: 0.7em center;
+	background-repeat: no-repeat;
+	text-indent: 25px;
+}
+
+.ie6 .disabled_buttons input.paction, .ie7 .disabled_buttons input.paction,
+.ie6 .disabled_buttons input.padd, .ie7 .disabled_buttons input.padd,
+.ie6 .disabled_buttons input.previse, .ie7 .disabled_buttons input.previse,
+.ie6 .disabled_buttons input.preturn, .ie7 .disabled_buttons input.preturn,
+.ie6 .disabled_buttons input.pcancel, .ie7 .disabled_buttons input.pcancel,
+.ie6 .disabled_buttons input.pdelete, .ie7 .disabled_buttons input.pdelete,
+.ie6 .disabled_buttons input.pok, .ie7 .disabled_buttons input.pok,
+.ie6 .disabled_buttons input.pedit, .ie7 .disabled_buttons input.pedit,
+.ie6 .disabled_buttons input.pupload, .ie7 .disabled_buttons input.pupload,
+.ie6 .disabled_buttons input.pdownload, .ie7 .disabled_buttons input.pdownload,
+.ie6 .disabled_buttons input.delete, .ie6 .disabled_buttons input.edit, .ie6 .buttons input.save,
+.ie7 .disabled_buttons input.delete, .ie7 .disabled_buttons input.edit, .ie7 .buttons input.save {
+	padding-left: 36px;
+}
+
+.disabled_buttons .delete {
+	background-image: url(../images/skin/database_delete.png);
+}
+
+.disabled_buttons .edit {
+	background-image: url(../images/skin/database_edit.png);
+}
+
+.disabled_buttons .save {
+	background-image: url(../images/skin/database_save.png);
+}
+
+.disabled_buttons .paction {
+	background-image: url(../images/skin/paction.png);
+}
+
+.disabled_buttons .padd {
+	background-image: url(../images/skin/padd.png);
+}
+
+.disabled_buttons .previse {
+	background-image: url(../images/skin/previse.png);
+}
+
+.disabled_buttons .preturn {
+	background-image: url(../images/skin/preturn.png);
+}
+
+.disabled_buttons .pcancel {
+	background-image: url(../images/skin/pcancel.png);
+}
+
+.disabled_buttons .pdelete {
+	background-image: url(../images/skin/pdelete.png);
+}
+
+.disabled_buttons .pok {
+	background-image: url(../images/skin/pok.png);
+}
+
+.disabled_buttons .pedit {
+	background-image: url(../images/skin/pedit.png);
+}
+
+.disabled_buttons .pupload {
+	background-image: url(../images/skin/pupload1.png);
+}
+
+.disabled_buttons .pdownload {
+	background-image: url(../images/skin/pdownload1.png);
+}
